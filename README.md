@@ -12,15 +12,15 @@ To run the program, follow these steps:
    - The coordinates of each city should be on the next line, separated by a space. The latitude and longitude values should be represented as `double` values.
 
 2. Compile the program using a C++ compiler. For example, you can use the following command with g++:
-- `g++ main.cpp -o city_search`
+   - `g++ main.cpp -o city_search`
 
 3. Execute the program by running the compiled binary:
-- `./city_search`
+   - `./city_search`
 
 4. The program will prompt you to enter a city name, radius, and norm. Follow the prompts and provide the required input.
-- Enter the name of the selected city (or '0' to exit).
-- Enter the desired radius for the search.
-- Enter the index of the desired norm (0 for L2, 1 for Linf, 2 for L1).
+   - Enter the name of the selected city (or '0' to exit).
+   - Enter the desired radius for the search.
+   - Enter the index of the desired norm (0 for L2, 1 for Linf, 2 for L1).
 
 5. After entering the input, the program will display the search results, including the number of cities found within the radius, the number of cities located north of the selected city, and a list of the cities found.
 
