@@ -1,1 +1,3 @@
-﻿target_sources (Task06 PRIVATE "main.cpp")
+﻿target_sources (task04-OriVered PRIVATE "main.cpp"
+"Controller.cpp"
+)

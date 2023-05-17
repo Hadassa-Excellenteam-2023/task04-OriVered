@@ -1,1 +1,1 @@
-﻿target_include_directories (Task06 PRIVATE ${CMAKE_CURRENT_LIST_DIR})
+﻿target_include_directories (task04-OriVered PRIVATE ${CMAKE_CURRENT_LIST_DIR})
