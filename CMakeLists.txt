@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 3.15)
 
-project (Task06)
+project (task04-OriVered)
 
 set (CMAKE_C_STANDARD 11)
 set (CMAKE_C_STANDARD_REQUIRED ON)
@@ -14,7 +14,7 @@ if (MSVC)
     add_compile_options (/W4 /permissive- /Zc:externConstexpr /Zc:inline)
 endif ()
 
-add_executable (Task06)
+add_executable (task04-OriVered)
 
 add_subdirectory (include)
 add_subdirectory (src)
